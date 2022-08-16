@@ -41,24 +41,24 @@ def get_birthday():
 
 
 def get_ttbirthday():
-    next = datetime.strptime(str(date.today().year) + "-" + ttbirthday, "%Y-%m-%d")
-    if next < datetime.now():
-        next = next.replace(year=next.year + 1)
-    return (next - today).days
+    next1 = datetime.strptime(str(date.today().year) + "-" + ttbirthday, "%Y-%m-%d")
+    if next1 < datetime.now():
+        next1 = next1.replace(year=next1.year + 1)
+    return (next1 - today).days
 
 
 def get_kaoyandate():
-    next = datetime.strptime(str(date.today().year) + "-" + kaoyandate, "%Y-%m-%d")
-    if next < datetime.now():
-        next = next.replace(year=next.year + 1)
-    return (next - today).days
+    next2 = datetime.strptime(str(date.today().year) + "-" + kaoyandate, "%Y-%m-%d")
+    if next2 < datetime.now():
+        next2 = next2.replace(year=next2.year + 1)
+    return (next2 - today).days
 
 
 def get_chabendate():
-    next = datetime.strptime(str(date.today().year) + "-" + chabendate, "%Y-%m-%d")
-    if next < datetime.now():
-        next = next.replace(year=next.year + 1)
-    return (next - today).days
+    next3 = datetime.strptime(str(date.today().year) + "-" + chabendate, "%Y-%m-%d")
+    if next3 < datetime.now():
+        next3 = next3.replace(year=next3.year + 1)
+    return (next3 - today).days
 
 
 def get_words():
