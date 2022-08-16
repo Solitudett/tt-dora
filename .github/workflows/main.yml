@@ -1,4 +1,4 @@
-name: morning
+	name: morning
 on:
   schedule:
   - cron:  '0 0 * * *'
@@ -29,4 +29,7 @@ jobs:
       USER_ID: ${{ secrets.USER_ID }}
       START_DATE: ${{ secrets.START_DATE }}
       BIRTHDAY: ${{ secrets.BIRTHDAY }}
+      TTBIRTHDAY : ${{ secrets.TTBIRTHDAY }}
+      KAOYANDATE : ${{ secrets.KAOYANDATE }}
+      CHABENDATE : ${{ secrets.CHABENDATE }}
       CITY: ${{ secrets.CITY }}
