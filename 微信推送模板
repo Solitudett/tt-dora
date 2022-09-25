@@ -1,0 +1,7 @@
+今日天气:{{weather.DATA}} 
+当前温度:{{temperature.DATA}} 
+今天是我们的第{{love_days.DATA}}天
+距离你的生日还有{{birthday_left.DATA}}天 
+距离tt的生日还有{{ttbirthday_left.DATA}}天 
+新的一天也不要忘记打卡哦 
+{{words.DATA}}
