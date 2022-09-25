@@ -19,7 +19,8 @@
 ![image](https://user-images.githubusercontent.com/106228529/192136929-1f2c6dda-8390-4838-9c5a-b691c538bce2.png)
 
 
-在项目settings里，点击左下角的secrets里面的actions，进入之后，点击new secret 添加各种属性名称和关键值![image](https://user-images.githubusercontent.com/106228529/192136040-2fa7f06d-ea74-4437-a4fc-4eaa6502e121.png)
+在项目settings里，点击左下角的secrets里面的actions，进入之后，点击new secret 添加各种属性名称和关键值!
+[image](https://user-images.githubusercontent.com/106228529/192136040-2fa7f06d-ea74-4437-a4fc-4eaa6502e121.png)
 和里面蓝色的大写变量名一样；生日格式为09-21；日期格式为2022-09-21；
 添加新变量时，依赖文件也需要添加
 
